@@ -13,6 +13,12 @@ return {
       "python",
       "c",
       "cpp",
+      "java",
+      "javadoc",
+      "systemverilog",
+      "typst",
+      "latex",
+      "asm", -- assembly 
     }
 
     ts.setup({})
