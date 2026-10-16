@@ -1,1 +1,6 @@
-return { 'neovim/nvim-lspconfig' }
+return {
+  "neovim/nvim-lspconfig",
+  config = function()
+    vim.lsp.enable("tinymist")
+  end,
+}
