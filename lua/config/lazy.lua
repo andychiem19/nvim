@@ -21,6 +21,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 vim.keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' }) -- map ctrl-a
+vim.keymap.set({ 'n', 'i' }, '<C-s>', '<cmd>w<cr>', { desc = 'Save (compiles typst to PDF)' }) -- map ctrl-s
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
