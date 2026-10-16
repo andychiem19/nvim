@@ -13,5 +13,7 @@ return {
         return { 'lsp', 'path', 'snippets', 'buffer' }
       end,
 },
+    sources = {
+  },
 },
 }
